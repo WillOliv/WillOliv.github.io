@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px){
+    main .destaque{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes{
+        width: 190px;
+        height: 50px;
+    }
+
+    .botao_play{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .sinopse{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .sinopse{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .sinopse{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .sinopse{
+        max-width: 100%;
+    }
+}
